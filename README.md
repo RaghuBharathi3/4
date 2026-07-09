@@ -9,18 +9,18 @@ An advanced generative AI solution designed to ingest JSON security telemetry fr
 
 ---
 
-## 📖 Table of Contents
-- [Project Overview](#-project-overview)
-- [Key Objectives](#-key-objectives)
-- [High-Level Architecture](#-high-level-architecture)
-- [Technology Stack](#-technology-stack)
-- [Documentation Index](#-documentation-index)
-- [References](#-references)
-- [License](#-license)
+## Table of Contents
+- [Project Overview](#project-overview)
+- [Key Objectives](#key-objectives)
+- [High-Level Architecture](#high-level-architecture)
+- [Technology Stack](#technology-stack)
+- [Documentation Index](#documentation-index)
+- [References](#references)
+- [License](#license)
 
 ---
 
-## 🔍 Project Overview
+## Project Overview
 
 In modern multi-cloud architectures, security teams are overwhelmed by the sheer volume of heterogeneous JSON security alerts. This **alert fatigue**, combined with a global deficit in cloud security expertise, often delays incident response. 
 
@@ -32,7 +32,7 @@ The **Generative AI-Powered Cloud Security Assistant** addresses this challenge 
 
 ---
 
-## 🎯 Key Objectives
+## Key Objectives
 
 * **Log Ingestion & Normalization**: Standardize heterogeneous JSON alerts into a unified system schema.
 * **Natural Language Explanation**: Convert cryptic logs into plain-language threat summaries.
@@ -43,7 +43,7 @@ The **Generative AI-Powered Cloud Security Assistant** addresses this challenge 
 
 ---
 
-## 🏗️ High-Level Architecture
+## High-Level Architecture
 
 The system utilizes a decoupled microservices design:
 1. **Ingress API Node**: Consumes webhooks and buffers events using Redis.
@@ -54,7 +54,7 @@ The system utilizes a decoupled microservices design:
 
 ---
 
-## 💻 Technology Stack
+## Technology Stack
 
 * **Languages**: Python (Backend & AI Orchestration), TypeScript (Frontend Interface).
 * **Frameworks**: FastAPI (Backend API Router), Next.js & Tailwind CSS (Frontend Dashboard).
@@ -64,7 +64,7 @@ The system utilizes a decoupled microservices design:
 
 ---
 
-## 🗂️ Documentation Index
+## Documentation Index
 
 This repository contains a comprehensive 32-part engineering documentation package under the [`Project_Documentation/`](Project_Documentation/) folder. Below is the hyperlinked index of all documents:
 
@@ -105,7 +105,7 @@ This repository contains a comprehensive 32-part engineering documentation packa
 
 ---
 
-## 🔗 References
+## References
 
 1. **United Nations Sustainable Development Goals**: [SDG Goal 4 & Goal 9 Target Indicators](https://sdgs.un.org/goals).
 2. **CIS Benchmarks**: [Center for Internet Security Cloud Configuration Standards](https://www.cisecurity.org/benchmark/amazon_web_services).
@@ -115,6 +115,6 @@ This repository contains a comprehensive 32-part engineering documentation packa
 
 ---
 
-## 📝 License
+## License
 
 This design documentation is released under the [MIT License](LICENSE). You are free to modify, distribute, and implement the system design described within these materials.
